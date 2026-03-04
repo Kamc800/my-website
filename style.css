@@ -1,9 +1,24 @@
-h1 {
+.heading {
     text-align: center;
-    color:navy; font-size: 72px;
+    color:navy; font-size: 100px;
+}
+
+.sentence {
+    text-align: center;
+    color: black;
 }
 
 p {
-    text-align: center;
-    color: red;
+    font-size: 21px;
+}
+
+.nav_link {
+    background-color: blueviolet;
+    color: whitesmoke;
+    padding: 5px 10px;
+    margin: 5px;
+    border-radius: 10px;
+    display: block;
+    opacity: 67%;
+    
 }
