@@ -63,3 +63,43 @@ p {
 .white {
     color: ivory;
 }
+
+.rainbow {
+    color: darkblue;
+    background-color: orange;
+    padding: 2.5px 5px;
+    margin: 2.5px;
+    border-radius: 10px;
+    display: block;
+    opacity: 100%;
+}
+
+.black {
+    color: rgba(0, 0, 0, 0.815);
+    background-color: lightgray;
+    padding: 2.5px 5px;
+    margin: 2.5px;
+    border-radius: 10px;
+    display: block;
+    opacity: 100%;
+}
+
+.blee {
+    color: rgb(0, 257, 295);
+    background-color: black;
+    padding: 4px 6.5px;
+    margin: 4px;
+    border-radius: 40px;
+    display: block;
+    opacity: 100%;
+}
+
+.blo {
+    color:cyan;
+    background-color: black;
+    padding: 10px 20px;
+    margin: 10px;
+    border-radius: 400px;
+    display: block;
+    opacity: 100%;
+}
