@@ -14,12 +14,14 @@ p {
 
 .nav_link {
     background-color: blueviolet;
-    color: whitesmoke;
     padding: 5px 10px;
-    margin: 5px;
     border-radius: 10px;
-    display: block;
     opacity: 67%;
+    display: inline-block;
+    margin-top: 20px;
+    color: darkblue;
+    text-decoration: none;
+    font-weight: bold;
     
 }
 
@@ -76,12 +78,13 @@ p {
 
 .black {
     color: rgba(0, 0, 0, 0.815);
-    background-color: lightgray;
+    background-color: yellow;
     padding: 2.5px 5px;
-    margin: 2.5px;
+    margin: 20px;
     border-radius: 10px;
     display: block;
     opacity: 100%;
+    font-family: Arial;
 }
 
 .blee {
@@ -103,3 +106,27 @@ p {
     display: block;
     opacity: 100%;
 }
+
+.H2 {
+    font-style: italic;
+    color: #444;
+}
+
+.P {
+    font-size: 18px;
+    color: darkgreen;
+    line-height: 1.54;
+}
+
+.H3 {
+    font-style: italic;
+    color: #444;
+}
+
+.OL {
+    background-color:#FFE4E1;
+    padding: 10px;
+}
+
+
+
