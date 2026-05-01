@@ -8,7 +8,7 @@
     color: black;
 }
 
-p {
+.p {
     font-size: 21px;
 }
 
@@ -128,5 +128,41 @@ p {
     padding: 10px;
 }
 
+.flex-container {
+    display: flex;/* Flexbox power! */
+    background-color: lightgray;/*
+    Makes the container visible */
+    padding: 20px;/*
+    soft towel inside the container */
+    gap: 15px;/* Space between boxes */
+}
 
+.flex_Container{
+    display: flex;
+}
 
+.box {
+    flex: 1;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: red;
+    border-radius: 21px;
+    text-align: center;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 15px;
+    background-color: red;
+    padding: 20px;
+}
+
+.grid-item {
+    background-color: blue;
+    padding: 20px;
+    font-size: 18px;
+    text-align: center;
+    color: white;
+}
