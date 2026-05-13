@@ -74,13 +74,14 @@
     border-radius: 10px;
     display: block;
     opacity: 100%;
+    font-family: Arial;
 }
 
 .black {
     color: rgba(0, 0, 0, 0.815);
     background-color: yellow;
     padding: 2.5px 5px;
-    margin: 20px;
+    margin: 2.5px;
     border-radius: 10px;
     display: block;
     opacity: 100%;
@@ -114,7 +115,7 @@
 
 .P {
     font-size: 18px;
-    color: darkgreen;
+    color: lightgreen;
     line-height: 1.54;
 }
 
@@ -170,9 +171,8 @@
     color: white;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1024px) {
     body {
-        background-color: blue
+        background-color: peru
     }    
 }
-
